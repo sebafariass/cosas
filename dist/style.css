@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    background-image: url(/img/kisspng-glass-mosaic-tile-vector-graphics-design-5c0965d941a9a7.616867431544119769269.png);
+    
+
+}
+
+.botones {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: rgba(112, 86, 206, 0.548);
+    border-radius: 10px;
+    border: hidden;
+    margin: 20px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.botones:hover {
+    background: rgba(14, 101, 122, 0.37);
+}
+
+ 
+.imgSelect { /* valor imagen a mostrar */ 
+    max-width: 600px;
+
+}
+
+
+p {
+    font-weight: bold;
+    color: blue;
+    font-size: 30px;
+}
+
+.video-responsive { /*videos info */ 
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16/9 ratio */
+    padding-top: 30px;
+    /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+   
+    
+}
+
